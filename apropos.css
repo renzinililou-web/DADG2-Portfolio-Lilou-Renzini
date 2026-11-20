@@ -1,0 +1,92 @@
+/* Page À propos — styles spécifiques desktop */
+
+/* 1. Introduction */
+.about-intro {
+  padding-top: 34px;
+  padding-bottom: 75px;
+}
+
+.about-intro h1 {
+  max-width: 700px;
+  margin: 0 0 36px;
+  font-size: 75px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.about-intro p {
+  max-width: 790px;
+  margin: 0;
+  font-size: 17px;
+}
+
+/* 2. Présentation personnelle */
+.about-presentation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  padding-top: 55px;
+  padding-bottom: 85px;
+  border-top: 1px solid #999999;
+}
+
+.about-text p {
+  margin: 0 0 20px;
+  font-size: 17px;
+
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+.about-approach {
+  padding-top: 55px;
+  padding-bottom: 85px;
+  border-top: 1px solid #999999;
+}
+
+.about-approach > .about-heading {
+  margin-bottom: 45px;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.approach-item {
+  min-width: 0;
+  padding: 35px 28px 60px;
+  background: var(--color-card);
+  border-radius: 8px;
+}
+
+.approach-item h3 {
+  margin: 0 0 12px;
+  font-size: 25px;
+  color: #df2d87;
+}
+
+.approach-item p {
+  margin: 0;
+  font-size: 16px;
+
+}
+
+/* 4. Conclusion */
+.about-conclusion {
+  padding-top: 20px;
+  padding-bottom: 85px;
+}
+
+.about-conclusion h2 {
+  margin-bottom: 35px;
+}
+
+.about-conclusion p {
+  max-width: 790px;
+  margin: 0 0 46px;
+  font-size: 17px;
+}
